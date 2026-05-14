@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interview Readiness Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Interview Readiness Score</h1>
+
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <select id="technical">
+      <option value="">Technical Skill</option>
+      <option value="90">Excellent</option>
+      <option value="70">Good</option>
+      <option value="50">Average</option>
+    </select>
+
+    <select id="communication">
+      <option value="">Communication</option>
+      <option value="90">Excellent</option>
+      <option value="70">Good</option>
+      <option value="50">Average</option>
+    </select>
+
+    <select id="resume">
+      <option value="">Resume Quality</option>
+      <option value="90">Excellent</option>
+      <option value="70">Good</option>
+      <option value="50">Average</option>
+    </select>
+
+    <button onclick="calculateScore()">Check Score</button>
+
+    <h2 id="result"></h2>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
